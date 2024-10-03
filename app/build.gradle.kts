@@ -76,4 +76,17 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.kotlinx.serialization.json)
+
+
+    // Retrofit
+    implementation(libs.retrofit)
+// Retrofit with Scalar Converter
+//    implementation(libs.converter.scalars)
+    // Retrofit with Kotlin serialization Converter
+
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
+    implementation(libs.okhttp)
+
+    //image library
+    implementation(libs.coil.compose)
 }
